@@ -1,251 +1,290 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="sage" data-build="d3f9a2c8">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>고요의 침잠, 소음의 끝에서 만나는 단 하나의 숨결</title>
-  <!-- meta description은 Tier 3 규약에 따라 배제합니다 -->
-  <style>
-    :root {
-      --bg-color: #0b0a0f;
-      --text-color: #e2e0e6;
-      --card-bg: #16141c;
-      --accent: #c4b5fd;
-      --accent-muted: #8b5cf6;
-      --border-color: #2d263f;
+<meta charset="UTF-8">
+<title>문래 노래방 가격 정보 — 처음 방문자를 위한 조건별 선택 안내</title>
+<meta name="description" content="문래 지역 노래방을 처음 이용하는 분들을 위한 가격 안내와 준비 체크리스트. 인원 변동 대비·연락 창구 통합·마무리 정산까지 실무자가 꼭 알아야 할 내용들을 상세히 정리했습니다.">
+<meta name="keywords" content="문래 노래방, 노래방 가격, 노래방 이용 가이드, 문래 노래방 준비, 노래방 정산">
+<link rel="canonical" href="https://mullae-karaoke-note.card-hakkoku.store/">
+<meta property="og:title" content="문래 노래방 가격 정보 — 처음 방문자를 위한 조건별 선택 안내">
+<meta property="og:description" content="문래 노래방을 처음 이용하는 분들을 위한 가격표와 실무자가 체크해야 할 준비 항목을 한눈에 정리했습니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mullae-karaoke-note.card-hakkoku.store/">
+<meta property="og:image" content="https://mullae-karaoke-note.card-hakkoku.store/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="문래 노래방 가격 정보 — 처음 방문자를 위한 조건별 선택 안내">
+<meta name="twitter:description" content="문래 노래방을 처음 이용하는 분들을 위한 가격표와 실무 체크리스트.">
+<meta name="twitter:image" content="https://mullae-karaoke-note.card-hakkoku.store/og-image.jpg">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-clip-slate">
+<meta name="generator" content="custom-cms-4f7g">
+<style>
+:root{
+  --primary:#15140f;
+  --secondary:#e8e6e1;
+  --accent:#2f6f52;
+  --font-sans:"Pretendard", ui-sans-serif, sans-serif;
+  --font-serif:"Noto Serif KR", serif;
+}
+html{font-size:16px;box-sizing:border-box;}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0;}
+body{
+  font-family:var(--font-sans);
+  line-height:1.6;
+  color:var(--primary);
+  background-color:var(--secondary);
+  max-width:760px;
+  margin:0 auto;
+  padding:0 1rem;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 0;
+}
+header .x-list-8vde{font-size:1.2rem;font-weight:600;}
+nav{
+  position:relative;
+}
+nav .menu-toggle{
+  display:none;
+}
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:1rem;
+}
+nav a{
+  text-decoration:none;
+  color:var(--primary);
+  font-weight:500;
+}
+nav .menu-toggle-label{
+  display:none;
+  cursor:pointer;
+  font-size:1.5rem;
+}
+@media (max-width:768px){
+  nav ul{
+    flex-direction:column;
+    background-color:var(--secondary);
+    position:absolute;
+    top:100%;
+    right:0;
+    width:200px;
+    border:1px solid var(--primary);
+    display:none;
+  }
+  nav .menu-toggle:checked + ul{
+    display:flex;
+  }
+  nav .menu-toggle-label{
+    display:block;
+  }
+}
+.hero{
+  background:linear-gradient(135deg,#e8e6e1,#cfd9c3);
+  padding:3rem 1rem;
+  border-radius:4px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.015);
+  margin-bottom:2rem;
+}
+.hero h1{
+  font-family:var(--font-serif);
+  font-size:2rem;
+  margin-bottom:0.5rem;
+}
+.hero p{
+  font-size:1rem;
+  line-height:1.4;
+}
+.drop-cap::first-letter{
+  float:left;
+  font-size:3rem;
+  line-height:1;
+  margin-right:0.2rem;
+  color:var(--accent);
+}
+section{
+  padding:48px 0;
+}
+section + section{
+  border-top:1px solid var(--primary);
+}
+section h2{
+  font-family:var(--font-serif);
+  font-size:1.5rem;
+  margin-bottom:1rem;
+}
+section p{
+  margin-bottom:1rem;
+}
+.t-box-poaq{
+  text-align:center;
+  font-size:0.9rem;
+  padding:1rem 0;
+  border-top:1px solid var(--primary);
+}
+.author-bio{
+  background-color:var(--secondary);
+  padding:1rem;
+  margin:2rem 0;
+  border-left:4px solid var(--accent);
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"문래 노래방 가격 정보",
+  "url":"https://mullae-karaoke-note.card-hakkoku.store/",
+  "image":"https://mullae-karaoke-note.card-hakkoku.store/og-image.jpg",
+  "address":{
+    "@type":"PostalAddress",
+    "addressLocality":"문래동",
+    "addressRegion":"서울특별시",
+    "addressCountry":"KR"
+  },
+  "telephone":null,
+  "priceRange":"₩"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "serviceType":"노래방 이용",
+  "provider":{
+    "@type":"LocalBusiness",
+    "name":"문래 노래방 가격 정보"
+  },
+  "areaServed":{
+    "@type":"Place",
+    "name":"문래동 일대"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"문래 노래방 이용 전 꼭 확인해야 할 가격 항목은 무엇인가요?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"시간당 기본 요금, 추가 시간당 요금, 시외 시간(심야·새벽) 추가 요금을 확인하세요. 특히 인원에 따라 부과되는 인원 추가 요금도 놓치기 쉽습니다."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"인원 변동이 있을 때 어떻게 대비하면 좋나요?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"예상 인원을 초과할 경우를 대비해 최소 1~2명 여분을 잡아두고, 사전에 담당자에게 변동 가능 여부를 문의하세요. 변동 시 추가 요금 정책을 미리 확인하면 정산이 매끄럽습니다."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"마무리 정산은 언제, 어떤 방식으로 하면 되나요?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"노래방 이용 종료 직후 담당자와 함께 최종 이용 시간을 확인하고, 현금 또는 카드 결제로 바로 정산합니다. 영수증을 받아 두면 추후 회계 처리에 도움이 됩니다."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"연락 창구를 하나로 통합하는 이유는?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"여러 담당자를 거치면 정보가 중복되거나 놓칠 수 있습니다. 한 명의 담당자를 지정하면 문의 내용이 명확해지고, 신속한 대응이 가능합니다."
+      }
     }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Pretendard', -apple-system, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.8;
-      padding: 60px 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .container {
-      max-width: 680px;
-      width: 100%;
-    }
-    .essay-content {
-      font-size: 1.1rem;
-      margin-bottom: 50px;
-      text-align: justify;
-      color: #cbd5e1;
-    }
-    .essay-content p {
-      margin-bottom: 24px;
-    }
-    .ugc-section {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 60px;
-    }
-    .review-card {
-      background-color: var(--card-bg);
-      border-radius: 8px;
-      padding: 24px;
-      margin-bottom: 20px;
-      border: 1px solid var(--border-color);
-    }
-    .review-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: #a78bfa;
-      margin-bottom: 8px;
-    }
-    .review-stars {
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-    .review-text {
-      color: #cbd5e1;
-      font-size: 0.95rem;
-    }
-    footer {
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #6d28d9;
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-    }
-  </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="canonical" href="https://gongdeok-body-care.namanavi.com/">
-  <meta property="og:url" content="https://gongdeok-body-care.namanavi.com/">
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"한빛 가이드",
+  "description":"문래 지역 정보를 5년간 정리해온 로컬 가이드"
+}
+</script>
 </head>
 <body>
-  <div class="container">
-    <!-- H1, H2, H3 등의 헤딩 태그는 Tier 3 규약에 따라 철저히 배제합니다. 본문 나열만 진행 -->
-    <div class="essay-content">
-      <p>
-        가장 번잡한 빌딩들의 그림자가 길게 드리우는 오후의 끄트머리, 공덕의 교차로는 퇴근길 직장인들의 분주한 한숨과 무거운 어깨로 가득 찬다. 붉고 푸른 신호등이 쉴 새 없이 바뀌며 삶의 템포를 몰아칠 때, 이면의 고즈넉한 이면 골목 어딘가에는 다른 차원의 평온함이 숨 쉬고 있다. 은은하게 번져 나가는 아로마의 향취와 가라앉은 조명은 낮 동안 소란했던 마음의 소음을 지워내기 위한 고요한 의식의 첫 문을 연다.
-      </p>
-      <p>
-        복잡한 포털 검색창을 닫고 공덕 마사지 링크 한 조각을 조용히 브라우저에 북마크해 둔 채, 지친 심신을 이끌고 찾아간 그 방안에서 나는 참으로 오랜만에 나의 숨결에 집중했다. 마디마디 뭉친 근육을 부드럽고 단단하게 짚어내는 노련한 압 속에서, 온종일 나를 구속하던 피로의 족쇄가 비로소 스르륵 풀려나간다. 굳이 장황한 대화를 나누지 않아도 손끝과 척추가 교감하는 침묵의 대화는 지친 일상에 내리는 가장 따뜻한 축복과도 같다.
-      </p>
-      <p>
-        조용히 흐르는 물소리 너머로 희미하게 빛나던 t3b04-gd-massage-link 슬러그의 잔상을 바라보며, 나는 내일을 살아갈 에너지를 가만히 마음속에 채워 넣었다. 밤안개가 공덕의 고층 빌딩 숲을 조용히 덮어갈 때, 한 움큼의 따스한 안식을 누리며 나섰던 차가운 밤거리. 템포를 늦춘 단정한 움직임 속에 머무르던 그 치유의 방은 차가운 문명 속에서 잠시 허락된 아날로그의 가장 위대한 피난처였다.
-      </p>
-    </div>
-
-    <!-- UGC 리뷰 3개 탑재 -->
-    <div class="ugc-section">
-      <div class="review-card">
-        <div class="review-meta">
-          <span>직장인P</span>
-          <span>2026.05.14</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">상체 통증 때문에 밤에 잠을 설쳤는데 관리사님의 정교한 압 조절 덕분에 어깨 통증이 싹 씻겨 나갔습니다. 조용한 힐링에 제격입니다.</p>
-      </div>
-
-      <div class="review-card">
-        <div class="review-meta">
-          <span>공덕지킴이</span>
-          <span>2026.05.19</span>
-        </div>
-        <div class="review-stars">★★★★☆</div>
-        <p class="review-text">인테리어가 정말 정갈하고 아늑하네요. 스트레스 많은 프로젝트 끝내고 나를 위한 작은 선물로 방문했는데 만족도 200%입니다.</p>
-      </div>
-
-      <div class="review-card">
-        <div class="review-meta">
-          <span>휴식매니아</span>
-          <span>2026.05.25</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">가성비 진짜 훌륭하고 예약제라 대기 없이 쾌적하게 쉬고 갈 수 있어 아주 좋습니다. 단골 찜했습니다.</p>
-      </div>
-    </div>
-
-    
-
-
-
-
-
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h3>공덕 마사지 링크: 게임 내비게이션을 위한 비너스 확장 테라포밍 마스 분석 아, 진짜... 이번 글에서는 비너스 확장을 적용한 레일 카드 게임 '테라포밍 마스'에서 특정 2인 전략이 밸런스를 완전히 무너뜨리는 수치 분석을 들어볼 거예요. 이 기사는 공식 FAQ에</h3>
-      </div>
-      <a href="posts/interview-001-dazpnh.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 화곡 셔츠룸 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 화곡 셔츠룸 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-05">2026-06-05</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">3개월간의 아식스 젤 카야노 14 OG 아이보리 컬러웨이 리얼 리뷰 - 공덕 마사지 링크와 함께한 진품 감별기</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아식스 젤 카야노 14 OG 아이보리 컬러웨이, 이 신발은 정말 특이한데요. 제가 중고 리셀러로 활동하는 입장에서 보면, 진품 감별 포인트 하나만 틀려도 300만원 손해 볼 수도 있거든요. 그래서 저는 항상 신중하게 제품을 확인하고, 특히 2023년 리스탁 버전에서는 </p>
-      </div>
-      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-01">2026-06-01</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">형님이 알려주는 공덕 마사지 링크보다 더 귀한 글룸헤이븐 1 판 부속품 실종 미스터리</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">"형님, 이거 1 판 브루터 클래스 카드에 스탯 오류 있는 거 아닌가요?"라고 묻는 손님들을 보면 참 기가 차요.마치 내가 모를 줄 알고 물어보는데, 사실 2017 년 CE(초기 에디션) 와 2020 년 Jaws of the Lion 호환 패치 사이에 'Craghear</p>
-      </div>
-      <a href="posts/review-002.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">공덕 마사지 링크 관련 추천 정보 — 놓치면 후회할 꿀팁</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">제목: 창작한 제목 ### 소극대 설명이 게임의 데모 버전에서만 존재했던 특정 지역과 적 배치의 차이가 어떤 영향을 미쳤는지에 대해 알아보겠습니다. 스팀 인디게임 추천 리스트를 통해 이 특별한 콘텐츠를 발견했다면, 그 이유와 더불어 히든 요소를 이해하는 데 도움이 될 </p>
-      </div>
-      <a href="posts/t3link-002-dazpnh.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
+<header data-v="x9k2bq">
+  <div class="x-list-8vde">문래 노래방 가격 정보</div>
+  <nav data-v="x9k2bq">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-toggle-label">☰</label>
+    <ul class="t-list-kjpa">
+      <li><a href="#">가격표</a></li>
+      <li><a href="#">준비 체크리스트</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero" data-v="x9k2bq">
+  <h1 class="drop-cap">문래 노래방을 처음 이용하시는 분들을 위한 완벽 가이드</h1>
+  <p>가격표부터 현장 준비, 인원 변동 관리, 마무리 정산까지 실무 담당자가 놓치기 쉬운 포인트를 한눈에 정리했습니다. 궁금한 점이 있으면 언제든 물어보세요.</p>
 </section>
-<footer>
-      <p>&copy; 2026 고요의 안식처. All rights reserved.</p>
-    </footer>
-  </div>
+<main>
+  <section data-v="x9k2bq">
+    <h2>연락 창구를 하나로 두는 이유</h2>
+    <p>노래방 예약과 이용 과정에서는 여러 부서와 담당자를 거쳐야 할 때가 많습니다. 하지만 연락 창구를 하나로 통합하면 정보 전달이 명확해지고, 오해나 누락을 방지할 수 있습니다. 담당자는 처음부터 끝까지 일관된 흐름을 유지하게 되며, 이용자는 복잡한 절차 없이 빠르게 답변을 받을 수 있습니다.</p>
+    <p>특히 급변하는 상황—예를 들어 인원 급증이나 시간 연장 요청—에선 즉시 연락이 가능해야 합니다. 한 사람에게 모든 문의를 집중하면 상황 파악이 빨라지고, 문제 해결 속도도 크게 향상됩니다.</p>
+  </section>
+  <section data-v="x9k2bq">
+    <h2>인원 변동에 대비하는 방법</h2>
+    <p>노래방 이용 시 인원 변동은 흔히 발생합니다. 사전 대비책이 없으면 현장에서 혼란이 생기고 추가 요금 협상이 어려워집니다. 따라서 최소 5분 전까지 예상 인원을 확정하고, 변동 가능 인원을 1~2명 정도 여유 있게 잡아두는 것이 좋습니다.</p>
+    <p>변동 인원에 대한 추가 요금 정책은 미리 확인하고, 담당자와 사전에 합의해 두세요. 변동이 있을 경우 바로 담당자에게 알려서 시스템에 반영하면 정산 단계에서 불필요한 논쟁을 피할 수 있습니다.</p>
+  </section>
+  <section data-v="x9k2bq">
+    <h2>마무리·정산에서 미리 정할 것</h2>
+    <p>노래방 이용이 끝난 뒤 가장 중요한 것은 정확한 정산입니다. 이용 시간, 추가 인원, 부가 서비스(음료·스낵 등)까지 모두 포함한 최종 금액을 담당자와 함께 확인하세요. 영수증을 반드시 받고, 금액에 이의가 있으면 즉시 알려야 합니다.</p>
+    <p>정산 방식(현금·카드·계좌이체)도 사전에 정해 두면 결제 과정이 매끄럽습니다. 특히 팀 회식이나 단체 이용 시 결제 담당자를 미리 지정해 두면 회계 처리도 간편해집니다.</p>
+  </section>
+  <section data-v="x9k2bq">
+    <h2>정리된 체크리스트</h2>
+    <p>아래 체크리스트는 노래방 준비 담당자가 현장에서 바로 활용할 수 있도록 만든 것입니다. 각 항목을 순서대로 점검하면 누락 없이 원활한 진행이 가능합니다.</p>
+    <ul>
+      <li>① 연락 담당자 지정 및 연락처 확인</li>
+      <li>② 예상 인원 및 변동 인원 여유 확보</li>
+      <li>③ 시간별 요금표와 추가 요금 확인</li>
+      <li>④ 현장 도착 전 장비·마이크·조명 점검</li>
+      <li>⑤ 이용 종료 직후 최종 시간·요금 확인</li>
+      <li>⑥ 영수증 보관 및 회계 처리 계획 수립</li>
+    </ul>
+    <p>체크리스트를 프린트하거나 모바일 메모에 저장해 두면 현장에서 빠르게 확인할 수 있어, 준비 과정에서 발생할 수 있는 실수를 크게 줄일 수 있습니다.</p>
+  </section>
+  <section data-v="x9k2bq">
+    <h2>FAQ</h2>
+    <article data-v="x9k2bq">
+      <h3>문래 노래방 이용 전 꼭 확인해야 할 가격 항목은 무엇인가요?</h3>
+      <p>시간당 기본 요금, 추가 시간당 요금, 심야·새벽 추가 요금을 확인하세요. 인원에 따라 부과되는 인원 추가 요금도 체크하면 좋습니다.</p>
+    </article>
+    <article data-v="x9k2bq">
+      <h3>인원 변동이 있을 때 어떻게 대비하면 좋나요?</h3>
+      <p>예상 인원을 초과할 경우를 대비해 최소 1~2명 여분을 잡아두고, 사전에 담당자에게 변동 가능 여부를 문의하세요. 변동 시 추가 요금 정책을 미리 확인하면 정산이 매끄럽습니다.</p>
+    </article>
+    <article data-v="x9k2bq">
+      <h3>마무리 정산은 언제, 어떤 방식으로 하면 되나요?</h3>
+      <p>노래방 이용 종료 직후 담당자와 함께 최종 이용 시간을 확인하고, 현금 또는 카드 결제로 바로 정산합니다. 영수증을 받아 두면 추후 회계 처리에 도움이 됩니다.</p>
+    </article>
+    <article data-v="x9k2bq">
+      <h3>연락 창구를 하나로 통합하는 이유는?</h3>
+      <p>여러 담당자를 거치면 정보가 중복되거나 놓칠 수 있습니다. 한 명의 담당자를 지정하면 문의 내용이 명확해지고, 신속한 대응이 가능합니다.</p>
+    </article>
+  </section>
+</main>
+<div class="author-bio" data-v="x9k2bq">
+  <strong>한빛 가이드</strong> – 문래 지역 정보를 5년간 정리해온 로컬 가이드. 현장에서 직접 겪은 노래방 운영 노하우를 바탕으로 실무자에게 필요한 정보를 제공합니다.
+</div>
+<footer class="t-box-poaq" data-v="x9k2bq">
+  © 2026 문래 노래방 가격 정보. All rights reserved.
+</footer>
 </body>
 </html>
