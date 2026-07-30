@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mullae-karaoke-note.card-hakkoku.store/sitemap.xml
-Sitemap: https://mullae-karaoke-note.card-hakkoku.store/sitemap-pages.xml
+Sitemap: https://gongdeok-body-care.namanavi.com/sitemap.xml
+Sitemap: https://gongdeok-body-care.namanavi.com/sitemap-pages.xml
